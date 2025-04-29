@@ -14,3 +14,13 @@ def multiplicarDoisNumeros(nota_01, nota_02):
     return print(resultado)
 
 multiplicarDoisNumeros(24, 98)
+
+def cadastrar(nome, idade):
+    data = {
+        "nome":nome,
+        "idade":idade,
+    }    
+
+    return print(data)
+
+cadastrar("matheus, 16")
