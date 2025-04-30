@@ -22,5 +22,8 @@ def cadastrar(nome, idade):
     }    
 
     return print(data)
+nome = input("Digite seu nome: ")
+idade = int(input("Digite sua idade: "))
 
-cadastrar("matheus, 16")
+cadastrar(nome, idade)
+print("voce tem um login")
